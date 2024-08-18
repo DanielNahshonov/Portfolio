@@ -1,0 +1,86 @@
+/* About.css */
+
+.about-container {
+  padding: 20px;
+  align-items: center;
+  background-color: #181c31;
+  color: #f0f0f0;
+}
+
+.about-heading {
+  font-size: 2rem;
+  align-items: center;
+  margin-bottom: 20px;
+  color: #1db954;
+}
+.education-heading {
+  font-size: 2rem;
+  align-items: center;
+  margin-bottom: 20px;
+  color: #1db954;
+}
+
+.about-section {
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.about-section h2 {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  color: #1db954;
+}
+
+.about-section p {
+  font-size: 1rem;
+  align-items: center;
+  line-height: 1.6;
+}
+
+.about-education {
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* CSS для Professional Knowledge */
+.about-professional-knowledge {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.about-professional-knowledge h2 {
+  display: flex;
+
+  text-align: center;
+}
+
+.about-professional-knowledge .category {
+  margin-bottom: 20px;
+}
+
+.about-professional-knowledge .category h3 {
+  font-size: 1.2rem;
+  color: #1db954;
+  text-align: center;
+}
+
+.about-professional-knowledge .category ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.about-professional-knowledge .category li {
+  display: flex;
+  align-items: center;
+  margin: 5px 10px;
+}
+
+.about-professional-knowledge .icon {
+  margin-right: 10px;
+  height: 40px;
+  color: #00bfff; /* Цвет иконок */
+}
