@@ -2,6 +2,8 @@
 
 export default function WorkExperience() {
   return (
+    <section id='work-experience'>
+
     <div className="work-experience">
       <div className="experience-item">
         <h3 className="job-title">Full-Stack Developer at Circlez.ai</h3>
@@ -37,5 +39,6 @@ export default function WorkExperience() {
         </ul>
       </div>
     </div>
+    </section>
   );
 }

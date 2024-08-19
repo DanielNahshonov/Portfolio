@@ -3,6 +3,8 @@
 
 export default function MainPage() {
   return (
+    <section id='main'>
+
     <div className="main-page">
       <div className="greeting">
         {/* <img src={profilePic} alt="Profile" className="profile-pic" /> */}
@@ -14,5 +16,6 @@ export default function MainPage() {
         </div>
       </div>
     </div>
+    </section>
   );
 }

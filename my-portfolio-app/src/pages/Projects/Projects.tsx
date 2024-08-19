@@ -4,17 +4,20 @@ import './Projects.css'
 
 export default function Projects() {
   return (
+    <section id='projects'>
+
     <div className="projects-container">
       {projects.map((project, index) => (
         <ProjectComponent
-          key={index}
-          name={project.name}
-          img={project.img}
-          description={project.description}
-          repo={project.repo}
-          link={project.link}
+        key={index}
+        name={project.name}
+        img={project.img}
+        description={project.description}
+        repo={project.repo}
+        link={project.link}
         />
       ))}
     </div>
+      </section>
   );
 }

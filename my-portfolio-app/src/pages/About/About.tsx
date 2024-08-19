@@ -7,6 +7,7 @@ import { faFileExcel, faFilePowerpoint, faFileWord } from '@fortawesome/free-sol
 
 export default function About() {
   return (
+    <section id="about">
     <div className="about-container">
       <h1 className="about-heading">About Me</h1>
       <div className="about-section">
@@ -65,5 +66,6 @@ export default function About() {
         </div>
       </div>
     </div>
+    </section>
   );
 }

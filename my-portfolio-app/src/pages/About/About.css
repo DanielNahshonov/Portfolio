@@ -22,7 +22,7 @@
 
 .about-section {
   margin-bottom: 20px;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .about-section h2 {
@@ -46,7 +46,7 @@
 /* CSS для Professional Knowledge */
 .about-professional-knowledge {
   margin-bottom: 20px;
-  display: flex;
+  /* display: flex; */
 }
 
 .about-professional-knowledge h2 {
@@ -75,7 +75,7 @@
 
 .about-professional-knowledge .category li {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   margin: 5px 10px;
 }
 

@@ -5,6 +5,8 @@ import './Contact.css'; // Подключаем стили
 
 export default function Contact() {
   return (
+    <section id='contact'>
+
     <div className="contact-container">
       <h2 className="contact-heading">Contact Me</h2>
       <div className="contact-details">
@@ -26,5 +28,6 @@ export default function Contact() {
         </div>
       </div>
     </div>
+    </section>
   );
 }
