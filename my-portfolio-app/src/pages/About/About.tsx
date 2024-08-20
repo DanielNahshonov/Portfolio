@@ -13,7 +13,7 @@ export default function About() {
       <div className="about-section">
         <p>
           Full-Stack Web Developer with experience in both development and
-          management. Highly motivated, able to excel under pressure, and a
+          management.Highly motivated, able to excel under pressure, and a
           responsible team player with a keen eye for detail. Possess excellent
           interpersonal skills and a great passion for programming.
         </p>

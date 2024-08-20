@@ -2,7 +2,9 @@
 .navbar {
   background-color: #181c31;
   color: #1db99a;
-  padding: 1rem;
+  /* padding: 1rem; */
+  /* margin: 20px; */
+  /* border: 10px; */
   transition: all 0.3s ease;
 }
 
@@ -27,7 +29,9 @@
   color: #009dff;
   text-decoration: none;
 }
-
+.nav-links{
+  padding: 10px;
+}
 /* Styling for navigation links */
 .nav-links ul {
   list-style: none;
@@ -70,7 +74,7 @@
     left: 0;
     width: 100%;
     background-color: #333;
-    padding: 1rem 0;
+    /* padding: 1rem 0; */
     z-index: 999;
     transition: all 0.3s ease;
   }

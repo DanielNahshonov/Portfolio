@@ -1,49 +1,63 @@
 /* MainPage.css */
 
 .main-page {
-    background-color: #121212; /* Темный фон */
-    color: #e0e0e0; /* Светлый текст */
-    text-align: center;
-    padding: 50px 20px;
-  }
-  
-  .greeting {
-    max-width: 800px;
-    margin: 0 auto;
-  }
-  
-  .profile-pic {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 20px;
-  }
-  
-  h1 {
-    font-size: 2.5em;
-    margin-bottom: 10px;
-    color: #1DB954; /* Акцентный цвет */
-  }
-  
-  p {
-    font-size: 1.2em;
-    margin-bottom: 20px;
-  }
-  
-  .social-links {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-  }
-  
-  .social-link {
-    font-size: 1.1em;
-    color: #1DB954; /* Акцентный цвет для ссылок */
-    text-decoration: none;
-  }
-  
-  .social-link:hover {
-    text-decoration: underline;
-  }
-  
+  background-color: #181c31;
+  color: #e0e0e0; /* Светлый текст */
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.greeting {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  color: #1db954; /* Акцентный цвет */
+  transform: scale(1);
+  transition: transform 0.3s ease-in-out;
+}
+h1:hover {
+  transform: scale(1.1);
+}
+
+p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  transform: scale(1);
+  transition: transform 0.3s ease-in-out;
+}
+p:hover {
+  transform: scale(1.1);
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  transform: scale(1);
+  transition: transform 0.3s ease-in-out;
+}
+.social-links:hover {
+  transform: scale(1.1);
+}
+
+.social-link {
+  font-size: 1.1em;
+  color: #1db954; /* Акцентный цвет для ссылок */
+  text-decoration: none;
+}
+
+.social-link:hover {
+  text-decoration: underline;
+}
