@@ -1,152 +1,86 @@
-/* About.css */
+/* Основные стили для секции "About" */
+
+#about {
+  padding: 40px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+}
 
 .about-container {
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #181c31;
-  color: #f0f0f0;
-  transform: scale(1); /* Начальный масштаб */
-  /* transition: transform 0.3s ease-in-out; Плавный переход */
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .about-heading {
-  font-size: 2rem;
-  align-items: center;
+  font-size: 2.5em;
   margin-bottom: 20px;
-  color: #1db954;
-  transform: scale(1);
-  transition: transform 0.3s ease-in-out;
-}
-.about-heading:hover {
-  transform: scale(1.1);
-}
-.education-heading {
-  font-size: 2rem;
-  align-items: center;
-  margin-bottom: 20px;
-  color: #1db954;
-  transform: scale(1);
-  transition: transform 0.3s ease-in-out;
-}
-.education-heading:hover {
-  transform: scale(1.1);
 }
 
 .about-section {
   margin-bottom: 20px;
-  /* align-items: center; */
-}
-h2{
-  color: #1db954;
-  transform: scale(1);
-  transition: transform 0.3s ease-in-out;
-}
-h2:hover {
-  transform: scale(1.1);
 }
 
-span{
-  transform: scale(1);
-  transition: transform 0.3s ease-in-out;
-}
-span:hover {
-  transform: scale(1.1);
-}
-ul{
-  transform: scale(1);
-  transition: transform 0.3s ease-in-out;
-}
-ul:hover {
-  transform: scale(1.1);
-}
-h3{
-  color: #1db954;
-  transform: scale(1);
-  transition: transform 0.3s ease-in-out;
-}
-h3:hover {
-  transform: scale(1.1);
-}
-
-
-.about-section h2 {
-  font-size: 1.5rem;
-  display: flex;
-  align-items: center;
-  color: #1db954;
-  transform: scale(1);
-  transition: transform 0.3s ease-in-out;
-}
-.about-section h2:hover {
-  transform: scale(1.1);
-}
-
-.about-section p {
-  font-size: 1rem;
-  max-width: 1000px;
-  align-items: center;
-  padding: 10px;
-  line-height: 1.6;
-  transform: scale(1);
-  transition: transform 0.3s ease-in-out;
-}
-.about-section p:hover {
-  transform: scale(1.1);
-}
-
-.about-education {
-  align-items: center;
+.education-heading {
+  font-size: 2em;
+  margin-top: 40px;
   margin-bottom: 20px;
 }
 
-/* CSS для Professional Knowledge */
+.education-item {
+  margin-bottom: 30px;
+  padding: 20px; /* Добавляем отступы внутри элемента */
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.education-cert {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+  border: 1px solid #7E53FF;
+  border-radius: 8px;
+}
+
+/* Стиль для секции "Professional Knowledge" */
+
 .about-professional-knowledge {
-  margin-bottom: 20px;
-  /* display: flex; */
-}
-
-.about-professional-knowledge h2 {
-  display: flex;
-
-  text-align: center;
-}
-
-.about-professional-knowledge .category {
-  margin-bottom: 20px;
-}
-
-.about-professional-knowledge .category h3 {
-  font-size: 1.2rem;
-  color: #1db954;
-  text-align: center;
-}
-
-.about-professional-knowledge .category ul {
-  list-style-type: none;
-  padding: 0;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  gap: 20px;
 }
 
-.about-professional-knowledge .category li {
+.category {
+  flex: 1;
+  min-width: 200px;
+  border: 1px solid #7E53FF;
+  border-radius: 10px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  box-sizing: border-box; /* Включаем box-sizing для всех элементов */
+}
+
+.category h3 {
+  margin-bottom: 15px;
+  font-size: 1.5em;
+  color: #7E53FF;
+}
+
+.category ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; /* Удаляем отступы для списка */
+}
+
+.category li {
   display: flex;
-  /* align-items: center; */
-  margin: 5px 10px;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+  color: #CFCFCF;
 }
 
-.about-professional-knowledge .icon {
+.category .icon {
   margin-right: 10px;
-  height: 40px;
-  color: #00bfff; /* Цвет иконок */
-}
-
-.div.contact-item{
-  transform: scale(1);
-  transition: transform 0.3s ease-in-out;
-}
-.div.contact-item:hover {
-  transform: scale(1.1);
+  color: #7E53FF;
 }

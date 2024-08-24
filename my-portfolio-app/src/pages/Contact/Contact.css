@@ -1,15 +1,12 @@
 /* Contact.css */
 .contact-container {
     padding: 20px;
-    background-color: #181c31;
-    color: #f0f0f0;
     border-radius: 8px;
   }
   
   .contact-heading {
     font-size: 2rem;
     margin-bottom: 20px;
-    color:  #1DB954;
   }
   
   .contact-details {
@@ -25,12 +22,10 @@
   }
   
   .contact-icon {
-    color: #1DB954;
     font-size: 1.5rem;
   }
   
   .contact-link, .contact-text {
-    color: #f0f0f0;
     font-size: 1.2rem;
     text-decoration: none;
   }
