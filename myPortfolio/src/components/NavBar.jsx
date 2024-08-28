@@ -5,25 +5,25 @@ export default function NavBar() {
     <nav className="navbar">
       <ul className="navbar-list">
         <li className="navbar-item">
-          <Link to="/" className="navbar-link" data-nav-link>
+          <Link to="Portfolio/" className="navbar-link" data-nav-link>
             About
           </Link>
         </li>
 
         <li className="navbar-item">
-          <Link to="/resume" className="navbar-link" data-nav-link>
+          <Link to="Portfolio/resume" className="navbar-link" data-nav-link>
             Resume
           </Link>
         </li>
 
         <li className="navbar-item">
-          <Link to="/portfolio" className="navbar-link" data-nav-link>
+          <Link to="Portfolio/portfolio" className="navbar-link" data-nav-link>
             Portfolio
           </Link>
         </li>
 
         <li className="navbar-item">
-          <Link to="/contact" className="navbar-link" data-nav-link>
+          <Link to="Portfolio/contact" className="navbar-link" data-nav-link>
             Contact
           </Link>
         </li>
