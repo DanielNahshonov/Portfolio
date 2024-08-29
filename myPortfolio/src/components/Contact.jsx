@@ -20,7 +20,7 @@ export default function Contact() {
 
       <section>
         <h2 className="h2 article-title">My Links:</h2>
-        <h3 className="links">
+        {/* <h3 className="links">
           GitHub:
           <a
             href="https://github.com/DanielNahshonov"
@@ -43,7 +43,24 @@ export default function Contact() {
         <h3 className="links">
           Email:{" "}
           <a href="mailto:dnakhshunov@gmail.com">dnakhshunov@gmail.com</a>
-        </h3>
+        </h3> */}
+        <div className="separator"></div>
+        <ul className="social-list">
+          <li className="social-item">
+            <a href="https://github.com/DanielNahshonov" target="_blank" rel="noopener noreferrer">
+              <div className="icon-box">
+                <ion-icon name="logo-github"></ion-icon>
+              </div>
+            </a>
+          </li>
+          <li className="social-item">
+            <a href="https://www.linkedin.com/in/daniel-nahshonov-12bb181a7/" target="_blank" rel="noopener noreferrer">
+              <div className="icon-box">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </div>
+            </a>
+          </li>
+        </ul>
       </section>
     </article>
   );
